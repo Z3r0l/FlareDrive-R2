@@ -3,7 +3,8 @@
   "version": "0.0.2",
   "description": "😁基于cloudflare-r2实现的网盘，可以实现文件分享功能",
   "scripts": {
-    "dev": "wrangler pages dev . --r2 BUCKET"
+    "dev": "wrangler pages dev . --r2 BUCKET",
+    "deploy": "wrangler publish --r2 BUCKET"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
   },
   "homepage": "https://github.com/willow-god/FlareDrive-R2#readme",
   "devDependencies": {
-    "@cloudflare/workers-types": "^3.3.1",
-    "wrangler": "^2.6.2"
+    "@cloudflare/workers-types": "^4.0.0",
+    "wrangler": "^4.2.0"
   }
 }
